@@ -15,7 +15,7 @@ test("check & uncheck method test: can be used for radio buttons & checkboxes", 
 
 
   // create locator variable named checkBox2 with this xpath //input[@id='box2']
-  const checkBox2 = await page.locator('//input[@id="box2"]s');
+  const checkBox2 = await page.locator('//input[@id="box2"]');
 
   
 
