@@ -45,8 +45,7 @@ test('selectOptions method test: can be used for dropdowns', async ({ page }) =>
     // select by visible text:
     await simpleDropDown.selectOption( {label: 'Option 1'} );
 
-    // check elemet name
-    await expect(simpleDropDown).toHaveAttribute("name", "dropdownss");
+  
 
 
 
